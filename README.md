@@ -54,19 +54,19 @@
 
    - Create a Database
     
-     `CREATE DATABASE userdb;`
+     - `CREATE DATABASE userdb;`
      
-     `USE userdb;`
+     - `USE userdb;`
 
    - Create a Users Table
 
-      ``
-       CREATE TABLE users (
-       id INT AUTO_INCREMENT PRIMARY KEY,
-       username VARCHAR(50),
-       email VARCHAR(100),
-       password VARCHAR(255)
-       );
+      - ``
+        CREATE TABLE users (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        username VARCHAR(50),
+        email VARCHAR(100),
+        password VARCHAR(255)
+        );
        `` 
 
    - Take a screenshot showing the creation of the database, table, and user in MySQL.
@@ -75,7 +75,7 @@
    - Write or copy a PHP registration script that allows users to register their details (username, email, password) and stores them in the users table.
    - Ensure the registration form connects to the MySQL database and inserts data correctly.
    - Test the registration page by accessing it from your browser
-     `http://<your-vm-public-ip>/register.php`
+     - `http://<your-vm-public-ip>/register.php`
 
 ## 10. Login as the Created User
    - After registering a new user, log in using the same credentials.
@@ -85,4 +85,5 @@
    - Share your web server’s public IP with friends or colleagues to verify if they can access the registration and login pages.
 
 ## 12. Public IP
-   - The public ip of my VM : `4.213.49.171`
+   - The public ip of my VM
+     - `4.213.49.171`
